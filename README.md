@@ -1,11 +1,19 @@
 ## GitHub上项目README.md文件编写常用语法介绍
 
+
 README使用的是[GitHub Flavored Markdown](https://github.github.com/gfm/)，是markdowm语法的扩展。简称GFM。
+
+
+[GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 
 [Markdown中文文档](http://wowubuntu.com/markdown/)
 
 [Markdown英文文档](https://daringfireball.net/projects/markdown/basics)
 
+#### Mac端 Markdown 编辑器
+- ##### [Mou-Markdown editor for developers](http://25.io/mou/)
+- ##### [Sublime+MarkdownEditing](https://github.com/ttscoff/MarkdownEditing)
+- ##### [有道云笔记-简单好用](https://note.youdao.com/)
 
 以下介绍了GFM常用语法写法以及效果展示。
 
@@ -17,6 +25,7 @@ README使用的是[GitHub Flavored Markdown](https://github.github.com/gfm/)，�
 - [图片](#图片)
 - [链接](#链接)
 - [列表](#列表)
+- [表格](#表格)
 - [块引用](#块引用)
 - [代码高亮](#代码高亮)
 
@@ -228,6 +237,27 @@ world
 - [ ] 任务四
 - [ ] 任务五
 - [ ] 任务六
+
+
+### 表格
+
+###### 写法
+
+```
+| 标题一  | 标题2 | 标题三 |  
+| :--- | :---: | ---: |
+| 左对齐  | 居中  | 右对齐 |
+
+```
+
+###### 效果
+
+标题1 | 标题2 | 标题三
+:---|:---: | ---:
+左对齐  | 居中  | 右对齐
+1324235463545675685 | 452334657465767856787879 | dfsdfgdfhfgh
+
+
 
 ### 块引用
 
